@@ -29,10 +29,10 @@ end
 local Confirmed = false
 
 WindUI:Popup({
-    Title = "Welcome! Popup Example",
-    Icon = "rbxassetid://129260712070622",
+    Title = "Welcome NusaDevID",
+    Icon = "rbxassetid://103878191411712",
     IconThemed = true,
-    Content = "This is an Example UI for the " .. gradient("WindUI", Color3.fromHex("#00FF87"), Color3.fromHex("#60EFFF")) .. " Lib",
+    Content = "NusaDevID Content " .. gradient("WindUI", Color3.fromHex("#00FF87"), Color3.fromHex("#60EFFF")) .. " Lib",
     Buttons = {
         {
             Title = "Cancel",
@@ -55,11 +55,11 @@ repeat wait() until Confirmed
 --
 
 local Window = WindUI:CreateWindow({
-    Title = "WindUI Library",
-    Icon = "rbxassetid://129260712070622",
+    Title = "NusaDevID",
+    Icon = "rbxassetid://103878191411712",
     IconThemed = true,
-    Author = "Example UI",
-    Folder = "CloudHub",
+    Author = "ShinzuX Exotickik",
+    Folder = "NusaDevID",
     Size = UDim2.fromOffset(580, 460),
     Transparent = true,
     Theme = "Dark",
@@ -108,7 +108,7 @@ Window:CreateTopbarButton("MyCustomButton3", "battery-plus", function() Window:T
 
 
 Window:EditOpenButton({
-    Title = "Open Example UI",
+    Title = "Open NusaDevID",
     Icon = "monitor",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2,
